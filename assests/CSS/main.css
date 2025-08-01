@@ -1,0 +1,474 @@
+:root {
+  --main-color: #2FC7A1;
+  --padding-size: 16px;
+  --font-size: 1.2rem;
+  --mainFont:"Sora", sans-serif;
+  --secondFont:"Poppins", sans-serif;
+  --thirdFont:"Epilogue", sans-serif;
+}
+
+
+.nav-link{
+    font-family: var(--mainFont);
+    font-weight: 400;
+    font-size: 17px;
+}
+
+
+
+.nav-link:focus, .nav-link:hover{
+   color: var(--main-color);
+}
+.top{
+    background: #17254E;
+}
+
+.navbar .navbar-brand {
+    width: 237px;
+    
+}
+
+.navbar-nav .nav-item{
+   margin-right: 40px;
+}
+.navbar-nav .nav-link.active{
+    color:var(--main-color);
+}
+
+
+.btn{
+    background: var(--main-color);
+    color :#ffffff ; 
+    font-family: var(--mainFont);
+    font-size: 15px;
+    font-weight: 500;
+    
+      
+    }
+
+.btn_2{
+    background: #2FC7A126;
+    opacity: 0.5;
+    color :#2FC7A1 ; 
+    font-family: var(--mainFont);
+    font-size: 14px;
+    font-weight: 400;
+    width: 35%;
+    height: 5%;
+    border-radius: 4px;
+    border-color: transparent;
+
+}
+.btn_3{
+    background: #2FC7A126;
+     
+    color :#ffffff ; 
+    font-family: var(--mainFont);
+    font-size: 15px;
+    font-weight: 500;
+    
+ 
+    
+    
+
+}
+.discription_1{
+    font-family: var(--thirdFont);
+    font-size: 60px;
+    font-weight: 700;
+    font-style: bold;
+}
+.text_1{
+    font-family: var(--mainFont);
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+.lead{
+    font-size: 60px;
+    font-weight: 700;
+  
+}
+
+.title_1{
+    font-family: var(--mainFont);
+   
+    font-size: 14px;
+    font-weight: 400;
+    color: #FE543D;
+}
+ 
+.title_2{
+    font-family: var(--mainFont);
+   
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--main-color);
+}
+.header{
+    background-image: url(./../Img/public/header.png);
+    background-size: cover;
+    height: 700PX;
+}
+.header_content {
+    height: 700px;
+}
+.lead{
+    font-family: var(--mainFont);
+    font-size: 45px;
+    font-weight: 700;
+    
+  
+}
+.text_color{
+    color: #FE543D;
+}
+
+p{
+    font-family: var(--mainFont);
+    font-size: 17px;
+    font-weight: 400;
+}
+
+h5{
+     font-family: var(--mainFont);
+    font-size: 17px;
+    font-weight: 700;
+    font-style: bold;
+
+}
+
+.img{
+    width:30px;
+    margin-right: 8px;
+}
+
+.IMG_RIGHT {
+    position: relative;
+    width: 400px;
+    height: 300px;
+ 
+  }
+
+.GIRL_IMG{
+    
+    width: 50%;
+    position: absolute;
+    top: 292px;
+    left: 103px;
+
+    
+    
+}
+.boy_IMG{
+     width: 75%;
+    position: absolute;
+   top: 75px;
+    left: 349PX;
+   
+}
+
+.second_header{
+    background:#ffffff;
+     height: 900PX;
+}
+.header_content2 {
+    height: 900px;
+}
+
+
+.first{
+    
+   width:15%;
+    position: absolute;
+          top: 50px;
+    left: -50px;
+
+    
+    
+}
+.second{
+     width:35%;
+    position: absolute;
+ top: 126px;
+    left: 31PX;
+  
+      
+
+   
+    
+}
+.third{
+    
+    width:50%;
+    position: absolute;
+    top: 388px;
+        left: 275px;
+
+    
+    
+}
+.fourth{
+    width:40%;
+    position: absolute;
+  top: 111px;
+    left: 278PX;
+  
+      
+}
+
+
+.featurs{
+    background-image: url(./../Img/header2/feature.png);
+    background-size: cover;
+   
+}
+    
+ .featurs_2{
+    background-image: url(./../Img/card2/background2.svg);
+    background-size: cover;
+ }
+
+
+
+ 
+
+ .box{
+    position: absolute;
+    top:100px;
+    left:100px;
+    right:100px ;
+    bottom:1000px;
+ }
+  .students{
+       position: absolute;
+   
+    top: 125px;
+    bottom: 300px;
+    left: 50px;
+    right: 313px;
+
+ }
+  .hat{
+    position: absolute;
+     top:300px;
+    left:300px;
+    right: 300px;
+    bottom: 300px;
+ }
+ 
+  .border{
+    height: 85%;
+    position:absolute;
+     top: 90px;
+   
+    left: 455px;
+    right: 313px;
+  
+ 
+ }
+  .texture{
+    position:absolute;
+    width: 60%;
+   top:0px;
+    left:600px;
+    right: 300px;
+    bottom: 300px;
+ 
+ }
+
+
+
+ .section_5{
+    background-color: #17254E;
+    
+    background-image: url(./../Img/bg2.jpg);
+  
+    
+  
+    
+    height: 500px;
+    
+    
+
+ } 
+ .sec5_left{
+    height: 500px;
+ }
+
+.sectio_6{
+    height: 750px;
+}
+.all_div{
+    height: 750px;
+}
+ .sec_6_right{
+    background-image: url(./../Img/sectio6/shape.svg);
+    background-color: #0E2A46;
+
+ }
+  .sec_6_left{
+    background-image: url(./../Img/sectio6/shape.svg);
+    background-color: var(--main-color);
+
+ }
+ .section_7{
+    height: 800px;
+    background-image: url(./../Img/section_7/bg-7.png);
+ }
+
+ .feedback {
+    background-image: url(./../Img/section_7/bg-7-2.png);
+    height: 400px;
+    position: absolute;
+    top: 200px;
+    left: 580px;
+ }
+ .traingle{
+    position: absolute;
+    top: 340px;
+    left: 950px;
+
+ }
+
+ .big_arrow{
+    position: absolute;
+    top: 200px;
+    left: 300px;
+ }
+  .hat_1{
+    position: absolute;
+    top: 600px;
+    left: 400px;
+ }
+  .dashed_square{
+    position: absolute;
+    width: 40%;
+    top: 100px;
+    left: 100px;
+ }
+  .gilrs{
+    position: absolute;
+    top: 100px;
+    left: 100px;
+ }
+ .orange{
+    position: absolute;
+    top: 530px;
+    left: 400px;
+ }
+ .section_9{
+    height: 650px;
+ }
+ .ff{
+    background-image: url(./../Img/section_9/bg-9.svg);
+    height: 500px;
+
+ }
+ .hh{
+    top: 80px;
+ }
+
+ .card_2{
+    background-color: #0E2A46;
+ }
+
+ .card3{
+    background-image: url(./../Img/card_3/bg-card_3.png);
+ }
+
+
+.last{
+    background-image: url(./../Img/public/footer-background.png);
+    background-size: cover;
+    height: 700px;
+    background-color: #0E2A46;
+    border-bottom: #ffffff;
+
+
+}
+.first_row{
+height: 200px;
+gap: 130px;
+padding: 20px;
+
+
+
+}
+footer{
+
+   height: 500px;
+}
+.main{
+    height: 500px;
+}
+
+
+
+
+h1{
+    font-family: var(--thirdFont);
+    font-size: 60px;
+    font-weight: 700;
+    font-style: bold;
+}
+
+
+.about_us{
+    height: 400px;
+    background-image: url(./../Img/aboutus/about.png);
+
+} 
+.abt{
+    height: 400px;
+}
+
+
+.courses{
+    height: 1500px;
+}
+
+.courses_ex{
+    height: 1500px;
+}
+
+
+.events{
+    height: 1300px;
+}
+
+
+.event_ex{
+    height: 1300px;
+}
+
+
+
+.blogs{
+    height: 1200px;
+}
+
+
+.blog_ex{
+    height: 1200px;
+}
+.contact{
+    background-color: #F2F2F2;
+    margin:  50px;
+}
+
+
+.card_4{
+   margin-top: 50px;
+    height: 800px;
+    margin-bottom: 50px;
+   
+    background-color: #F2F2F2;
+ 
+}
+@media (max-width: 768px) {
+  .section {
+    flex-direction: column;
+  }
+}
